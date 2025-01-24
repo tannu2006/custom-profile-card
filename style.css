@@ -8,6 +8,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
     background-image:url(images/bg-img.jpg);
 
 }
