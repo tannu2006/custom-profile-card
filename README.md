@@ -38,10 +38,6 @@ custom-profile-card/
   cd custom-profile-card
 3.Open index.html in a browser to view the profile card.
 
-# Screenshots
-![Profile Card Desktop View](assets/desktop-view.png)
-![Profile Card Mobile View](assets/mobile-view.png)
-
 # Customization Summary
 This custom profile card was built using the following steps:\
 
