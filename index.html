@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profie||Card</title>
+    <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div class="container">
+
+<!--Profile Card Start-->
+    <div class="profile-card">
+        <div class="profile-img">
+            <img src="images/profile-pic.jpg" alt="">
+        </div>
+        <div class="profile-info " id="slide-left">
+            <h1 class="heading">Hey, I'am Tannu</h1>
+            <h2 id="profession">Frontend Developer</h2>
+            <p class="bio">
+                Aspiring frontend developer with 6 months of experience in HTML, CSS, JavaScript, React, and Node.js. Currently pursuing a BCA and skilled in Git. Strong communication and collaboration abilities. Fluent in English and Hindi.
+            </p>
+            
+            <div class="social-links">
+
+                <a href="https://github.com/tannu2006" target="_blank">
+                    <img src="images/github.png" class="icon" alt="github">
+                </a>
+                <a href="https://www.linkedin.com/in/tannu-0-06120433a" target="_blank">
+                    <img src="images/linkedin.png" class="icon" alt="linkedin">
+                </a>
+            </div>
+
+            <!-- Contact Button -->
+            <button type="submit" id="contactBtn">Contact Me</button>
+
+            <!-- Popup Modal -->
+            
+        </div>
+    </div>
+    <div id="popupModal" class="modal">
+                <div class="modal-content">
+                    <span id="closeModal" class="close">&times;</span>
+                    <h2>Contact Form</h2>
+                    <form id="contactForm">
+                    <input type="text" id="name" name="name" required  placeholder="Enter your name"/><br /><br />
+                    <input type="email" id="email" name="email" required placeholder="Enter your email" /><br /><br />
+                    <textarea id="message" name="message" required placeholder="Add a meassage"></textarea><br /><br />
+                    <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+</div>
+        
+        
+
+    <script src="script.js"></script>
+</body>
+</html>
