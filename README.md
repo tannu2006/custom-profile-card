@@ -1,10 +1,5 @@
 # custom-profile-card
 This repository showcases a custom-designed profile card created entirely from scratch. The card demonstrates creativity and manual coding skills without relying on templates.
-# Custom Profile Card
-
-This project is a **custom-built profile card** designed and developed from scratch. It demonstrates responsive design, interactive elements, and modern styling techniques to create a visually appealing and functional web component.
-
----
 
 ##  Features
 
